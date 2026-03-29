@@ -1,5 +1,6 @@
 import { Component, AfterViewInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Router } from '@angular/router';
 import { DataService } from '../../core/services/data.service';
 import { ScrollService } from '../../core/services/scroll.service';
 import gsap from 'gsap';
@@ -17,7 +18,7 @@ gsap.registerPlugin(ScrollTrigger);
 export class FooterComponent implements AfterViewInit {
   currentYear = new Date().getFullYear();
 
-  constructor(public data: DataService, private scrollSvc: ScrollService) {}
+  constructor(public data: DataService, private scrollSvc: ScrollService, private router: Router) {}
 
   ngAfterViewInit() {
     gsap.from('.footer-col', {
@@ -26,5 +27,9 @@ export class FooterComponent implements AfterViewInit {
     });
   }
 
-  goTo(id: string) { this.scrollSvc.scrollTo(id); }
+  goTo(id: string) {
+    if (id === 'contact') { this.router.navigate(['/contact']); return; }
+    if (id === 'about')   { this.router.navigate(['/about']);   return; }
+    this.scrollSvc.scrollTo(id);
+  }
 }

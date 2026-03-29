@@ -34,7 +34,7 @@ export class NavbarComponent implements OnInit, OnDestroy {
     { name: 'Kerala',           image: 'https://cdn.yourholiday.me/static/dynimg/itinerary/14/600x300/2228853-2228852_kerala-1.jpg' },
     { name: 'Himachal Pradesh', image: 'https://cdn.yourholiday.me/static/dynimg/itinerary/11/600x300/2228921-2228920_hp-3.jpg' },
     { name: 'Rajasthan',        image: 'https://cdn.yourholiday.me/static/dynimg/itinerary/37/600x450/2185258-2185257_pexels-photo-209741.jpg' },
-    { name: 'Ladakh',           image: 'https://cdn.yourholiday.me/static/dynimg/itinerary/99/600x300/3191480-3191479_azin-javadzadeh-wmpyrpas7dq-unsplash.jpg' },
+    { name: 'Ladakh',           image: 'https://static.toiimg.com/photo/msid-52005539/52005539.jpg' },
     { name: 'Uttarakhand',      image: 'https://cdn.yourholiday.me/static/dynimg/itinerary/21/600x300/2228887-2228886_manali-1.jpg' },
     { name: 'Kashmir',          image: 'https://cdn.yourholiday.me/static/dynimg/itinerary/28/600x300/2210839-2210838_hampi.jpg' }
   ];

@@ -33,7 +33,7 @@ export class DataService {
   companyName = 'J K Tours And Travels, Pune';
   logo = 'https://cdn.yourholiday.me/static/dynimg/partner/37/300x150/3562268-3562267_j-k-new-logo.jpg';
   heroImage = 'https://cdn.yourholiday.me/static/dynimg/itinerary/85/1200x900/2191615-2191614_adobestock_223056954.jpg';
-  customizeImage = 'https://cdn.yourholiday.me/static/dynimg/itinerary/99/1200x900/3191480-3191479_azin-javadzadeh-wmpyrpas7dq-unsplash.jpg';
+  customizeImage = 'https://cdn.pixabay.com/photo/2019/09/07/08/54/ladakh-4458588_1280.jpg';
 
   typewriterWords = [
     'Dubai starting Rs. 39,999',
@@ -958,12 +958,12 @@ export class DataService {
     'ladakh': {
       name: 'Ladakh',
       tagline: 'Land of High Passes — monasteries, lakes & raw Himalayas',
-      heroImage: 'https://cdn.yourholiday.me/static/dynimg/itinerary/99/600x300/3191480-3191479_azin-javadzadeh-wmpyrpas7dq-unsplash.jpg',
+      heroImage: 'https://cdn.pixabay.com/photo/2019/09/07/08/54/ladakh-4458588_1280.jpg',
       packages: [
         {
           id: 21, nights: 4, duration: '4N/5D', price: 18500, badge: 'Bestseller',
           name: 'Ladakh Escape',
-          image: 'https://cdn.yourholiday.me/static/dynimg/itinerary/99/600x300/3191480-3191479_azin-javadzadeh-wmpyrpas7dq-unsplash.jpg',
+          image: 'https://cdn.pixabay.com/photo/2019/09/07/08/54/ladakh-4458588_1280.jpg',
           highlights: [
             'Leh city tour — Leh Palace & Shanti Stupa',
             'Pangong Tso Lake — the iconic blue lake',
@@ -983,7 +983,7 @@ export class DataService {
         {
           id: 22, nights: 5, duration: '5N/6D', price: 24000, badge: 'Popular',
           name: 'Ladakh Highlights',
-          image: 'https://cdn.yourholiday.me/static/dynimg/itinerary/99/600x300/3191480-3191479_azin-javadzadeh-wmpyrpas7dq-unsplash.jpg',
+          image: 'https://cdn.pixabay.com/photo/2020/08/13/05/16/nubra-valley-5485247_1280.jpg',
           highlights: [
             'Pangong Tso & Nubra Valley coverage',
             'Khardung La Pass — world\'s highest motorable road',
@@ -1004,7 +1004,7 @@ export class DataService {
         {
           id: 23, nights: 6, duration: '6N/7D', price: 31000,
           name: 'Ladakh Explorer',
-          image: 'https://cdn.yourholiday.me/static/dynimg/itinerary/99/600x300/3191480-3191479_azin-javadzadeh-wmpyrpas7dq-unsplash.jpg',
+          image: 'https://cdn.pixabay.com/photo/2017/08/06/09/53/leh-2592925_1280.jpg',
           highlights: [
             'Pangong Tso, Nubra Valley & Tso Moriri Lake',
             'Khardung La & Chang La high mountain passes',
@@ -1026,7 +1026,7 @@ export class DataService {
         {
           id: 24, nights: 7, duration: '7N/8D', price: 42000, badge: 'Premium',
           name: 'Grand Ladakh',
-          image: 'https://cdn.yourholiday.me/static/dynimg/itinerary/99/600x300/3191480-3191479_azin-javadzadeh-wmpyrpas7dq-unsplash.jpg',
+          image: 'https://cdn.pixabay.com/photo/2019/09/07/08/54/ladakh-4458588_1280.jpg',
           highlights: [
             'Complete Ladakh — Leh, Nubra, Pangong, Tso Moriri, Zanskar',
             'Luxury glamping at Pangong & Nubra',

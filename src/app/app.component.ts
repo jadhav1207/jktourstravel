@@ -56,7 +56,13 @@ export class AppComponent implements OnInit {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
-  scrollTo(id: string) { this.scrollSvc.scrollTo(id); }
+  scrollTo(id: string) {
+    if (!this.isHomePage) {
+      this.router.navigate(['/contact']);
+      return;
+    }
+    this.scrollSvc.scrollTo(id);
+  }
 
   onBookPackage(pkgName: string) {
     this.selectedPackage = pkgName;

@@ -20,7 +20,7 @@ export class ContactPageComponent implements OnInit, AfterViewInit {
   form = { name: '', email: '', subject: '', message: '' };
 
   infoCards = [
-    { icon: 'fas fa-map-marker-alt', title: 'Our Office',      lines: ['J K Tours And Travels', 'Pune, Maharashtra, India'] },
+    { icon: 'fas fa-map-marker-alt', title: 'Our Office',      lines: ['J K Tours & Travels', 'Abhimanshree Society, Pashan,', 'Pune, Maharashtra'] },
     { icon: 'fas fa-phone',          title: 'Call Us',         lines: ['+91 94224 21993', '+91 98220 12346'] },
     { icon: 'fas fa-envelope',       title: 'Email Us',        lines: ['info@jktourstravels.in'] },
     { icon: 'fas fa-clock',          title: 'Working Hours',   lines: ['Mon–Sat: 9:00 AM – 7:00 PM', 'Sunday: 10:00 AM – 4:00 PM'] }

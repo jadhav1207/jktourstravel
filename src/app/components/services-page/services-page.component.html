@@ -27,6 +27,31 @@
     </div>
   </div>
 
+  <!-- Our Services -->
+  <section class="sp-services-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Our Travel Services</h2>
+        <p>Everything you need for a perfect trip — all under one roof</p>
+      </div>
+      <div class="sp-services-grid">
+        <div class="sp-service-card" *ngFor="let s of services">
+          <div class="sp-service-icon" [style.background]="s.color + '18'" [style.color]="s.color">
+            <i [class]="s.icon"></i>
+          </div>
+          <div class="sp-service-body">
+            <h3>{{ s.title }}</h3>
+            <p>{{ s.desc }}</p>
+            <div class="sp-service-tags">
+              <span *ngFor="let tag of s.tags" [style.background]="s.color + '15'" [style.color]="s.color">{{ tag }}</span>
+            </div>
+          </div>
+          <div class="sp-service-arrow" [style.color]="s.color"><i class="fas fa-arrow-right"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Steps -->
   <section class="sp-steps-section">
     <div class="container">
@@ -45,24 +70,6 @@
           <div class="sp-step-arrow" *ngIf="i < steps.length - 1">
             <i class="fas fa-arrow-right"></i>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Why Us -->
-  <section class="sp-why-section">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-tag"><i class="fas fa-thumbs-up"></i> Why Choose Us</span>
-        <h2>The JK Tours Difference</h2>
-        <p>We don't just plan tours — we create memories that last a lifetime</p>
-      </div>
-      <div class="sp-why-grid">
-        <div class="sp-why-card" *ngFor="let w of whyUs">
-          <div class="sp-why-icon"><i [class]="w.icon"></i></div>
-          <h3>{{ w.title }}</h3>
-          <p>{{ w.desc }}</p>
         </div>
       </div>
     </div>
